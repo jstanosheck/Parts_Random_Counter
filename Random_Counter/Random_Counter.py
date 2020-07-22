@@ -125,9 +125,9 @@ canvas = tk.Canvas(root, height=HEIGHT, width=WIDTH, bg='#fbf9f5')
 canvas.pack()
 
 #Image Label
-img = ImageTk.PhotoImage(Image.open('HEB_Logo.jpg'))
-logo_label = tk.Label(root, image=img)
-logo_label.place(relx=0.9, rely=0.05, relwidth=0.2, relheight=0.1, anchor='ne')
+#img = ImageTk.PhotoImage(Image.open('HEB_Logo.jpg'))
+#logo_label = tk.Label(root, image=img)
+#logo_label.place(relx=0.9, rely=0.05, relwidth=0.2, relheight=0.1, anchor='ne')
 
 #Title Frame 
 title_frame = tk.Frame(root)
